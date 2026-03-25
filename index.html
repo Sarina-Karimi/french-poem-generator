@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ai poeam generator</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
     <div class="container">
     <main>
 
-        <form>
+        <form id="poem-generator-form">
             <input type="text" 
             placeholder=
             "Enter the topic of the french poem" 
@@ -25,10 +26,7 @@
              class="submit-button">
         </form>
 
-        <div class="poem">
-            Demain, dès l’aube, à l’heure où blanchit la campagne,
-        <br />
-        Je partirai. Vois-tu, je sais que tu m’attends.
+        <div class="poem" id="poem">
         </div>
     </main>
     <footer>This project was coded by <a href="https://github.com/Sarina-Karimi" target="_blank" rel="noopener noreferrer">
