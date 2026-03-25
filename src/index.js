@@ -4,7 +4,7 @@ function generatePoem(event) {
     let poemElement = document.querySelector("#poem");
     poemElement.innerHTML = "poem"
     new Typewriter(poemElement, {
-    strings: "Sous le ciel doux du matin",
+    strings: "Demain, dès l’aube, à l’heure où blanchit la campagne Je partirai. Vois-tu, je sais que tu m’attends.",
     autoStart: true,
     });
 }
